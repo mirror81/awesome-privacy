@@ -4405,7 +4405,7 @@ categories:
       - name: Secluso
         description: |
           An open source, end-to-end encrypted home security camera
-          solution (Raspberry Pi 2W). Easy to setup with GUI deploy tool.
+          solution (Pi Zero 2W). Easy to setup with GUI deploy tool.
           Fully E2EE remote access (live streaming & smart motion alerts) 
           via mobile app and untrusted self-hostable relay.
         url: https://secluso.com
