@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-03T15:43:52Z",
+  "generatedAt": "2026-06-05T20:52:02Z",
   "processedShas": [
     "02125ec429ec1ce9c5acdec1604703cb058a7887",
     "02231fb0a59ee43f93c6d0143640284cb7587d71",
@@ -75,6 +75,7 @@
     "6d21892e771f8ca4a64b772e211b32db166626a6",
     "7177ba26e054a6f173ec451b420ee64d5fdef69b",
     "75ad504f96da49df98dc30842d820fd74c85deb0",
+    "77a0e3eb620e1324b194d619d44cb6f4b6b17006",
     "78d83c0266281333143f9a0cb5e6d6af6439befd",
     "7a3286122e197a9b5836cfcd73fca768ccf6f50e",
     "7bac41fe2e60a38e22a3a723d4f0af28cfe0661d",
@@ -245,10 +246,16 @@
     579,
     580,
     581,
+    582,
+    583,
     584,
     585,
     586,
-    587
+    587,
+    593,
+    594,
+    598,
+    600
   ],
   "entries": [
     {
@@ -4940,6 +4947,46 @@
   ],
   "rejections": [
     {
+      "date": "2026-06-04",
+      "title": "Adds Screenpipe to Casting & Streaming",
+      "pr": {
+        "number": 600,
+        "url": "https://github.com/lissy93/awesome-privacy/pull/600",
+        "author": "louis030195",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/25003283?v=4"
+      }
+    },
+    {
+      "date": "2026-06-04",
+      "title": "Add SwapFile.io in Security Tools > Online Tools",
+      "pr": {
+        "number": 598,
+        "url": "https://github.com/lissy93/awesome-privacy/pull/598",
+        "author": "mecanbay",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/21036722?v=4"
+      }
+    },
+    {
+      "date": "2026-06-03",
+      "title": "[Add] VaultKeepR in Password Managers",
+      "pr": {
+        "number": 594,
+        "url": "https://github.com/lissy93/awesome-privacy/pull/594",
+        "author": "0xJust1",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/82548334?v=4"
+      }
+    },
+    {
+      "date": "2026-06-03",
+      "title": "Add NoChat - private E2EE messaging without a phone number",
+      "pr": {
+        "number": 593,
+        "url": "https://github.com/lissy93/awesome-privacy/pull/593",
+        "author": "CatsMeow492",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/56234110?v=4"
+      }
+    },
+    {
       "date": "2026-05-30",
       "title": "Add 3 VPN leak detection tools to Network Analysis",
       "pr": {
@@ -4975,6 +5022,26 @@
       "pr": {
         "number": 584,
         "url": "https://github.com/lissy93/awesome-privacy/pull/584",
+        "author": "bodiana",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/50101974?v=4"
+      }
+    },
+    {
+      "date": "2026-06-04",
+      "title": "Add MyIPNow to awesome-privacy.yml",
+      "pr": {
+        "number": 583,
+        "url": "https://github.com/lissy93/awesome-privacy/pull/583",
+        "author": "bodiana",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/50101974?v=4"
+      }
+    },
+    {
+      "date": "2026-06-04",
+      "title": "Patch 4",
+      "pr": {
+        "number": 582,
+        "url": "https://github.com/lissy93/awesome-privacy/pull/582",
         "author": "bodiana",
         "authorAvatar": "https://avatars.githubusercontent.com/u/50101974?v=4"
       }
