@@ -22,6 +22,7 @@ import argparse
 import json
 import logging
 import os
+import re
 import sys
 from datetime import datetime, timezone
 from urllib.parse import urlparse
@@ -43,10 +44,8 @@ RESTRICTIVE_LICENSES = {
 
 SESSION = utils.make_session(user_agent=USER_AGENT)
 
-SITE_INFO_URL = "https://site-info-fetch.as93.workers.dev"
-ANDROID_API_URL = "https://android-app-privacy.as93.net"
-IOS_API_URL = "https://ios-app-info.as93.net"
-TOSDR_API_URL = "https://privacy-policies.as93.workers.dev"
+API_URL = os.environ.get("API_URL", "https://api.awesome-privacy.xyz").rstrip("/")
+API_TOKEN = os.environ.get("API_TOKEN", "")
 
 GREEN, ORANGE, RED, BLUE, WHITE = "\U0001f7e2", "\U0001f7e0", "\U0001f534", "\U0001f535", "\u26aa"
 
@@ -60,6 +59,12 @@ def _api_get(url, params=None, timeout=TIMEOUT, headers=None):
     except Exception as e:
         logger.warning("Fetch failed for %s: %s", url, e)
     return None
+
+
+def _enrich_get(path, params=None, timeout=TIMEOUT):
+    """GET an enrichment endpoint on the unified API, adding auth when configured."""
+    headers = {"Authorization": f"Bearer {API_TOKEN}"} if API_TOKEN else None
+    return _api_get(f"{API_URL}/v1/enrich/{path}", params=params, headers=headers, timeout=timeout)
 
 
 def relative_time(iso_str):
@@ -287,8 +292,8 @@ def grade_stats(data):
 
 
 def fetch_website_data(url):
-    """Fetch site info from the worker API."""
-    return _api_get(SITE_INFO_URL, params={"url": url}, timeout=15)
+    """Fetch site info from the unified API."""
+    return _enrich_get("website", params={"url": url}, timeout=15)
 
 
 def check_security_txt(url):
@@ -400,7 +405,7 @@ def grade_website_stats(data, url, has_security_txt):
 def fetch_android_data(package_id):
     """Fetch Android app privacy data."""
     package_id = package_id.split("id=")[-1] if "id=" in package_id else package_id
-    data = _api_get(f"{ANDROID_API_URL}/{package_id}")
+    data = _enrich_get(f"android/{package_id}")
     return data if data and not data.get("error") else None
 
 
@@ -430,11 +435,15 @@ def grade_android_stats(data):
 
 
 def fetch_ios_data(app_url):
-    """Fetch iOS app info."""
-    # The API requires a country code in the URL path — insert /us/ if missing
-    if app_url and "apps.apple.com/app/" in app_url:
-        app_url = app_url.replace("apps.apple.com/app/", "apps.apple.com/us/app/", 1)
-    return _api_get(IOS_API_URL, params={"appStoreUrl": app_url})
+    """Fetch iOS app info, extracting the numeric id and country from the store URL."""
+    if not app_url:
+        return None
+    id_match = re.search(r"id(\d+)", app_url)
+    if not id_match:
+        return None
+    country_match = re.search(r"apps\.apple\.com/([a-z]{2})/", app_url)
+    country = country_match.group(1) if country_match else "us"
+    return _enrich_get(f"ios/{id_match.group(1)}", params={"country": country})
 
 
 def grade_ios_stats(data):
@@ -457,13 +466,13 @@ def grade_ios_stats(data):
 
 def fetch_tosdr_data(service_id):
     """Fetch ToS;DR privacy policy data."""
-    return _api_get(f"{TOSDR_API_URL}/{service_id}")
+    return _enrich_get(f"privacy/{service_id}")
 
 
 def grade_tosdr_stats(data):
     """Grade ToS;DR privacy policy stats."""
     stats = []
-    params = data.get("parameters") or {}
+    params = data or {}
 
     rating = params.get("rating")
     if not rating:
