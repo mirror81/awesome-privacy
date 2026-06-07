@@ -23,7 +23,7 @@
     "@hono/node-server": "^2.0.2",
     "@hono/zod-openapi": "^0.18.4",
     "@modelcontextprotocol/sdk": "^1.6.1",
-    "@scalar/hono-api-reference": "^0.5.165",
+    "@scalar/hono-api-reference": "^0.10.20",
     "hono": "^4.6.16",
     "minisearch": "^7.1.1",
     "zod": "^3.23.8"

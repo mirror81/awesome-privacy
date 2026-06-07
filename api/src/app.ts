@@ -1,6 +1,6 @@
 // Hono app assembler, the same instance runs on Workers and on Bun
 import { cors } from 'hono/cors'
-import { apiReference } from '@scalar/hono-api-reference'
+import { Scalar } from '@scalar/hono-api-reference'
 
 import { createStorage } from '@/lib/cache'
 import { errorHandler, notFound } from '@/lib/errors'
@@ -72,13 +72,30 @@ export const buildApp = () => {
   app.route('/v1', buildPrivate())
   app.route('/v1', mcp)
 
+  const description = `
+  The API allows you to browse awesome-privacy's data programmatically.
+  It also runs some lookups/checks on listings to surface useful insights
+  to add additional context to listings, and save time when comparing software / services.
+  <br>
+  These endpoints are used by as part of the website generation,
+  the PR review process and the scheduled listing audits.
+  You're also free to use it for your own purposes.
+  <br>
+  > [!IMPORTANT]
+  > It's very important not to rely on this data for any decision making,
+  > as it only gives a very narrow slice of the picture.
+  > There's also many real privacy issues which the automated lookups have no way of detecting,
+  > as well as the possibility for false positives/negatives.
+  > **Always do your own research**.
+  `
+
   // OpenAPI document plus Scalar UI
   app.doc('/openapi.json', {
     openapi: '3.0.0',
     info: {
       title: 'Awesome Privacy API',
       version: '1.0.0',
-      description: 'Public + private (enrichment) routes for awesome-privacy data',
+      description,
     },
     servers: [{ url: '/' }],
     tags: [
@@ -89,7 +106,29 @@ export const buildApp = () => {
       },
     ],
   })
-  app.get('/docs', apiReference({ spec: { url: '/openapi.json' }, theme: 'purple' }))
+  const blurb = 'Browse awesome-privacy data and enrichment insights programmatically.'
+  app.get(
+    '/docs',
+    Scalar({
+      url: '/openapi.json',
+      theme: 'laserwave',
+      persistAuth: true,
+      favicon: 'https://awesome-privacy.xyz/favicon.svg',
+      operationTitleSource: 'summary',
+      tagsSorter: 'alpha',
+      operationsSorter: 'alpha',
+      orderRequiredPropertiesFirst: true,
+      mcp: { name: 'Awesome Privacy', url: '/v1/mcp' },
+      metaData: {
+        title: 'Awesome Privacy API',
+        description: blurb,
+        ogTitle: 'Awesome Privacy API',
+        ogDescription: blurb,
+        ogImage: 'https://awesome-privacy.xyz/banner.png',
+        twitterCard: 'summary_large_image',
+      },
+    }),
+  )
 
   app.get('/', (c) => c.redirect('/docs'))
 
