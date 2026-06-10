@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-06T10:27:37Z",
+  "generatedAt": "2026-06-10T10:46:25Z",
   "processedShas": [
     "02125ec429ec1ce9c5acdec1604703cb058a7887",
     "02231fb0a59ee43f93c6d0143640284cb7587d71",
@@ -97,6 +97,7 @@
     "9138eddcdec8ede666db70bc44d98b33c9f9653e",
     "923301401b6f5d19ea9bb2c4fb9360eff10a257a",
     "9554aea077ef26edde7570d6ba0cdbdd83bc0535",
+    "96c4133fb23b2945e0b863de8e4939588665cafd",
     "97087e9763354540028fc571aca552a83464cc1d",
     "99cf5f51acf1b8ac09558bf419abe18586233668",
     "9ad78e8af115f4c8115083d956da93d12a1a03f2",
@@ -257,9 +258,549 @@
     593,
     594,
     598,
-    600
+    600,
+    604,
+    606
   ],
   "entries": [
+    {
+      "date": "2026-06-10",
+      "sha": "96c4133fb23b2945e0b863de8e4939588665cafd",
+      "pr": {
+        "number": 608,
+        "url": "https://github.com/lissy93/awesome-privacy/pull/608",
+        "author": "lissy93",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/1862727?v=4"
+      },
+      "changes": {
+        "services": {
+          "modified": [
+            {
+              "name": "Mozilla Thunderbird",
+              "category": "Communication",
+              "section": "Email Clients",
+              "fields": [
+                "git"
+              ]
+            },
+            {
+              "name": "ProtonMail",
+              "category": "Communication",
+              "section": "Mail Forwarding",
+              "fields": [
+                "github"
+              ]
+            },
+            {
+              "name": "SimpleLogin",
+              "category": "Communication",
+              "section": "Mail Forwarding",
+              "fields": [
+                "github"
+              ]
+            },
+            {
+              "name": "Briar",
+              "category": "Communication",
+              "section": "P2P Messaging",
+              "fields": [
+                "git"
+              ]
+            },
+            {
+              "name": "Tox & qTox client",
+              "category": "Communication",
+              "section": "P2P Messaging",
+              "fields": [
+                "github"
+              ]
+            },
+            {
+              "name": "Jmp.chat",
+              "category": "Communication",
+              "section": "Virtual Phone Numbers",
+              "fields": [
+                "git"
+              ]
+            },
+            {
+              "name": "MoneroSMS",
+              "category": "Communication",
+              "section": "Virtual Phone Numbers",
+              "fields": [
+                "github"
+              ]
+            },
+            {
+              "name": "Codeberg",
+              "category": "Development",
+              "section": "Code Hosting",
+              "fields": [
+                "codeberg"
+              ]
+            },
+            {
+              "name": "GitLab",
+              "category": "Development",
+              "section": "Code Hosting",
+              "fields": [
+                "git"
+              ]
+            },
+            {
+              "name": "Gitea",
+              "category": "Development",
+              "section": "Code Hosting",
+              "fields": [
+                "github"
+              ]
+            },
+            {
+              "name": "Gogs",
+              "category": "Development",
+              "section": "Code Hosting",
+              "fields": [
+                "github"
+              ]
+            },
+            {
+              "name": "SourceHut",
+              "category": "Development",
+              "section": "Code Hosting",
+              "fields": [
+                "git"
+              ]
+            },
+            {
+              "name": "Authenticator GNOME",
+              "category": "Essentials",
+              "section": "2-Factor Authentication",
+              "fields": [
+                "git"
+              ]
+            },
+            {
+              "name": "Firefox",
+              "category": "Essentials",
+              "section": "Browsers",
+              "fields": [
+                "git"
+              ]
+            },
+            {
+              "name": "LibreWolf",
+              "category": "Essentials",
+              "section": "Browsers",
+              "fields": [
+                "codeberg"
+              ]
+            },
+            {
+              "name": "Tor Browser",
+              "category": "Essentials",
+              "section": "Browsers",
+              "fields": [
+                "git"
+              ]
+            },
+            {
+              "name": "Pass",
+              "category": "Essentials",
+              "section": "Password Managers",
+              "fields": [
+                "git"
+              ]
+            },
+            {
+              "name": "ProtonPass",
+              "category": "Essentials",
+              "section": "Password Managers",
+              "fields": [
+                "github"
+              ]
+            },
+            {
+              "name": "Bisq",
+              "category": "Finance",
+              "section": "Crypto Exchanges",
+              "fields": [
+                "github"
+              ]
+            },
+            {
+              "name": "CryptoSteel",
+              "category": "Finance",
+              "section": "Crypto Wallets",
+              "fields": [
+                "github"
+              ]
+            },
+            {
+              "name": "I2P",
+              "category": "Networking",
+              "section": "Anonymity Networks",
+              "fields": [
+                "git"
+              ]
+            },
+            {
+              "name": "AdGuard",
+              "category": "Networking",
+              "section": "DNS Providers",
+              "fields": [
+                "github"
+              ]
+            },
+            {
+              "name": "NextDNS",
+              "category": "Networking",
+              "section": "DNS Providers",
+              "fields": [
+                "github"
+              ]
+            },
+            {
+              "name": "Lockdown",
+              "category": "Networking",
+              "section": "Firewalls",
+              "fields": [
+                "github"
+              ]
+            },
+            {
+              "name": "OPNSense",
+              "category": "Networking",
+              "section": "Firewalls",
+              "fields": [
+                "github"
+              ]
+            },
+            {
+              "name": "Shorewall",
+              "category": "Networking",
+              "section": "Firewalls",
+              "fields": [
+                "git"
+              ]
+            },
+            {
+              "name": "Uncomplicated Firewall",
+              "category": "Networking",
+              "section": "Firewalls",
+              "fields": [
+                "git"
+              ]
+            },
+            {
+              "name": "Privoxy",
+              "category": "Networking",
+              "section": "Proxies",
+              "fields": [
+                "git"
+              ]
+            },
+            {
+              "name": "ClamAV",
+              "category": "Operating Systems",
+              "section": "Anti-Malware",
+              "fields": [
+                "github"
+              ]
+            },
+            {
+              "name": "Alpine Linux",
+              "category": "Operating Systems",
+              "section": "Desktop Operating Systems",
+              "fields": [
+                "git"
+              ]
+            },
+            {
+              "name": "Parrot",
+              "category": "Operating Systems",
+              "section": "Desktop Operating Systems",
+              "fields": [
+                "git"
+              ]
+            },
+            {
+              "name": "Qubes OS",
+              "category": "Operating Systems",
+              "section": "Desktop Operating Systems",
+              "fields": [
+                "github"
+              ]
+            },
+            {
+              "name": "Tails",
+              "category": "Operating Systems",
+              "section": "Desktop Operating Systems",
+              "fields": [
+                "git"
+              ]
+            },
+            {
+              "name": "Whonix",
+              "category": "Operating Systems",
+              "section": "Desktop Operating Systems",
+              "fields": [
+                "github"
+              ]
+            },
+            {
+              "name": "BleachBit",
+              "category": "Operating Systems",
+              "section": "Linux Defenses",
+              "fields": [
+                "github"
+              ]
+            },
+            {
+              "name": "Gufw",
+              "category": "Operating Systems",
+              "section": "Linux Defenses",
+              "fields": [
+                "github"
+              ]
+            },
+            {
+              "name": "Snort",
+              "category": "Operating Systems",
+              "section": "Linux Defenses",
+              "fields": [
+                "github"
+              ]
+            },
+            {
+              "name": "AXP.OS",
+              "category": "Operating Systems",
+              "section": "Mobile Operating Systems",
+              "fields": [
+                "git"
+              ]
+            },
+            {
+              "name": "BleachBit",
+              "category": "Operating Systems",
+              "section": "Windows Defences",
+              "fields": [
+                "github"
+              ]
+            },
+            {
+              "name": "NextCloud",
+              "category": "Productivity",
+              "section": "Backup and Sync",
+              "fields": [
+                "github"
+              ]
+            },
+            {
+              "name": "FileN",
+              "category": "Productivity",
+              "section": "Encrypted Cloud Storage",
+              "fields": [
+                "github"
+              ]
+            },
+            {
+              "name": "Internxt",
+              "category": "Productivity",
+              "section": "Encrypted Cloud Storage",
+              "fields": [
+                "github"
+              ]
+            },
+            {
+              "name": "Koofr",
+              "category": "Productivity",
+              "section": "Encrypted Cloud Storage",
+              "fields": [
+                "github"
+              ]
+            },
+            {
+              "name": "Peergos",
+              "category": "Productivity",
+              "section": "Encrypted Cloud Storage",
+              "fields": [
+                "github"
+              ]
+            },
+            {
+              "name": "FileSend",
+              "category": "Productivity",
+              "section": "File Drop",
+              "fields": [
+                "github"
+              ]
+            },
+            {
+              "name": "AmIUnique Timeline",
+              "category": "Security Tools",
+              "section": "Browser Extensions",
+              "fields": [
+                "github"
+              ]
+            },
+            {
+              "name": "Decentraleyes",
+              "category": "Security Tools",
+              "section": "Browser Extensions",
+              "fields": [
+                "git"
+              ]
+            },
+            {
+              "name": "LocalCDN",
+              "category": "Security Tools",
+              "section": "Browser Extensions",
+              "fields": [
+                "codeberg"
+              ]
+            },
+            {
+              "name": "Exodus",
+              "category": "Security Tools",
+              "section": "Mobile Apps",
+              "fields": [
+                "github"
+              ]
+            },
+            {
+              "name": "F-Droid",
+              "category": "Security Tools",
+              "section": "Mobile Apps",
+              "fields": [
+                "git"
+              ]
+            },
+            {
+              "name": "Greentooth",
+              "category": "Security Tools",
+              "section": "Mobile Apps",
+              "fields": [
+                "git"
+              ]
+            },
+            {
+              "name": "SuperFreezZ",
+              "category": "Security Tools",
+              "section": "Mobile Apps",
+              "fields": [
+                "git"
+              ]
+            },
+            {
+              "name": "Am I Unique?",
+              "category": "Security Tools",
+              "section": "Online Tools",
+              "fields": [
+                "github"
+              ]
+            },
+            {
+              "name": "Blocked.org",
+              "category": "Security Tools",
+              "section": "Online Tools",
+              "fields": [
+                "github"
+              ]
+            },
+            {
+              "name": "Tiny RSS",
+              "category": "Social",
+              "section": "News Readers",
+              "fields": [
+                "github"
+              ]
+            },
+            {
+              "name": "Invidious",
+              "category": "Social",
+              "section": "Proxy Sites",
+              "fields": [
+                "github"
+              ]
+            },
+            {
+              "name": "Nitter",
+              "category": "Social",
+              "section": "Proxy Sites",
+              "fields": [
+                "github"
+              ]
+            },
+            {
+              "name": "DTube",
+              "category": "Social",
+              "section": "Video Platforms",
+              "fields": [
+                "github"
+              ]
+            },
+            {
+              "name": "PeerTube",
+              "category": "Social",
+              "section": "Video Platforms",
+              "fields": [
+                "github"
+              ]
+            },
+            {
+              "name": "shred",
+              "category": "Utilities",
+              "section": "Data Erasers",
+              "fields": [
+                "git"
+              ]
+            },
+            {
+              "name": "GPG Suite",
+              "category": "Utilities",
+              "section": "PGP Managers",
+              "fields": [
+                "github"
+              ]
+            },
+            {
+              "name": "Kleopatra",
+              "category": "Utilities",
+              "section": "PGP Managers",
+              "fields": [
+                "git"
+              ]
+            },
+            {
+              "name": "SeaHorse",
+              "category": "Utilities",
+              "section": "PGP Managers",
+              "fields": [
+                "git"
+              ]
+            },
+            {
+              "name": "VirtualBox",
+              "category": "Utilities",
+              "section": "Virtual Machines",
+              "fields": [
+                "github"
+              ]
+            },
+            {
+              "name": "Xen Project",
+              "category": "Utilities",
+              "section": "Virtual Machines",
+              "fields": [
+                "git"
+              ]
+            }
+          ]
+        },
+        "sections": {},
+        "categories": {}
+      }
+    },
     {
       "date": "2026-06-06",
       "sha": "bcc2a64a33c0bb4a07a4faa37288c324d0153bd7",
@@ -5018,6 +5559,26 @@
     }
   ],
   "rejections": [
+    {
+      "date": "2026-06-08",
+      "title": "Add PII Blackout to awesome-privacy.yml",
+      "pr": {
+        "number": 606,
+        "url": "https://github.com/lissy93/awesome-privacy/pull/606",
+        "author": "shaoshuaithe",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/36251703?v=4"
+      }
+    },
+    {
+      "date": "2026-06-06",
+      "title": "Adds Cypher eSIM to Virtual Phone Numbers",
+      "pr": {
+        "number": 604,
+        "url": "https://github.com/lissy93/awesome-privacy/pull/604",
+        "author": "psasha860",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/70258136?v=4"
+      }
+    },
     {
       "date": "2026-06-04",
       "title": "Adds Screenpipe to Casting & Streaming",
