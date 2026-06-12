@@ -90,7 +90,7 @@ corporations, governments, and hackers from logging, storing or selling your per
 	- [Code Hosting](#code-hosting) (5)
 	- [IDEs](#ides) (1)
 - **Developer Utilities**
-	- [Developer Tools](#developer-tools) (1)
+	- [Developer Tools](#developer-tools) (2)
 - **Smart Home & IoT**
 	- [Smart Home](#smart-home) (1)
 - **Finance**
@@ -1715,6 +1715,7 @@ Cross-platform, open source malware detection and virus prevention tools
 ### Developer Tools
 
 - **[<img src='https://devtoys.app/favicon.ico' width='14' alt='' /> DevToys](https://devtoys.app/)** - Open-source offline toolbox for developers, with utilities for JSON, YAML, hashes, JWTs, Base64, text comparison and more. Useful alternative to pasting sensitive data into random online tools. 
+- **[<img src='https://www.usebruno.com/favicon.ico' width='14' alt='' /> Bruno](https://www.usebruno.com/)** - Open-source, local-first API client that stores collections as plain text files and works seamlessly with Git. A privacy-focused alternative to cloud-based API tools. 
 
 <p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
 
