@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-12T15:38:20Z",
+  "generatedAt": "2026-06-13T13:40:18Z",
   "processedShas": [
     "02125ec429ec1ce9c5acdec1604703cb058a7887",
     "02231fb0a59ee43f93c6d0143640284cb7587d71",
@@ -128,6 +128,7 @@
     "bc99ed2b8704c26e3165320efe62dd863521b26e",
     "bcc2a64a33c0bb4a07a4faa37288c324d0153bd7",
     "bd021a41c3c5858c0474bb407ad406d5c4664aaa",
+    "bdea1fa26b4d87c0c156b8e2aca3431ca6dd29f2",
     "c34654569457ae084fbde06c77d2b80c55aba43a",
     "c58dec4d6fc4226b3365df168b68baefc02e12ac",
     "c867fd7423f3e4b8e455b435018be8fc3bd6c99a",
@@ -269,6 +270,29 @@
     613
   ],
   "entries": [
+    {
+      "date": "2026-06-13",
+      "sha": "bdea1fa26b4d87c0c156b8e2aca3431ca6dd29f2",
+      "pr": {
+        "number": 617,
+        "url": "https://github.com/lissy93/awesome-privacy/pull/617",
+        "author": "Achal13jain",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/136223316?v=4"
+      },
+      "changes": {
+        "services": {
+          "added": [
+            {
+              "name": "Alacritty",
+              "category": "Development",
+              "section": "Terminal Emulators"
+            }
+          ]
+        },
+        "sections": {},
+        "categories": {}
+      }
+    },
     {
       "date": "2026-06-12",
       "sha": "719de567d40d3be7714c3206fb76a41d93c61910",

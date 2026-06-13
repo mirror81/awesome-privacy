@@ -89,6 +89,7 @@ corporations, governments, and hackers from logging, storing or selling your per
 - **Development**
 	- [Code Hosting](#code-hosting) (5)
 	- [IDEs](#ides) (1)
+	- [Terminal Emulators](#terminal-emulators) (1)
 - **Developer Utilities**
 	- [Developer Tools](#developer-tools) (2)
 - **Smart Home & IoT**
@@ -1705,7 +1706,8 @@ Cross-platform, open source malware detection and virus prevention tools
 
 ### Terminal Emulators
 
-<p  align="center"><b>⚠️ This section is still a work in progress ⚠️</b><br /><i>Check back soon, or help us complete it by submitting a pull request</i></p>
+- **[<img src='https://alacritty.org/alacritty-simple.svg' width='14' alt='' /> Alacritty](https://alacritty.org/)** - Fast, GPU-accelerated terminal emulator focused on simplicity, performance, and extensive keyboard-driven workflows. 
+
 <p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
 
 ---
