@@ -109,6 +109,7 @@ corporations, governments, and hackers from logging, storing or selling your per
 	- [Proxy Sites](#proxy-sites) (4)
 - **Media**
 	- [Photo Management](#photo-management) (1)
+	- [Torrent Downloaders](#torrent-downloaders) (1)
 	- [File Converters](#file-converters) (2)
 - **Creativity**
 	- [Image Editors](#image-editors) (8)
@@ -2190,7 +2191,8 @@ TikTok, and more.*
 
 ### Torrent Downloaders
 
-<p  align="center"><b>⚠️ This section is still a work in progress ⚠️</b><br /><i>Check back soon, or help us complete it by submitting a pull request</i></p>
+- **[<img src='https://avatars.githubusercontent.com/u/2131270?s=256&v=4' width='14' alt='' /> qBittorrent](https://www.qbittorrent.org)** - A cross-platform BitTorrent client with built-in torrent search, RSS feeds, and an optional web interface. It contains no ads or bundled software. As with any BitTorrent client, your IP address is vis[…](https://awesome-privacy.xyz/media/torrent-downloaders/qbittorrent "View full qBittorrent report") 
+
 <p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
 
 ---
