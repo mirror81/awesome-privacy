@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T21:42:50Z",
+  "generatedAt": "2026-06-15T09:36:58Z",
   "processedShas": [
     "02125ec429ec1ce9c5acdec1604703cb058a7887",
     "02231fb0a59ee43f93c6d0143640284cb7587d71",
@@ -165,6 +165,7 @@
     "f6467fe43a42b6b4a6e9e887ab0e4ae7accd93d8",
     "f987d9969923ee65464d0de187183719af278998",
     "fa1c504da13a0d2f8e75ef95566811e54750ff3d",
+    "fca32d84d5c026154c5187c2a95a6dd77b73e475",
     "fd84267e31da8b5086eed9d3f2a0c2dfa7f23d93",
     "fd87f80e3777c170e28f035b7049f3bde57c69a6"
   ],
@@ -273,6 +274,29 @@
     619
   ],
   "entries": [
+    {
+      "date": "2026-06-15",
+      "sha": "fca32d84d5c026154c5187c2a95a6dd77b73e475",
+      "pr": {
+        "number": 622,
+        "url": "https://github.com/lissy93/awesome-privacy/pull/622",
+        "author": "lissy93",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/1862727?v=4"
+      },
+      "changes": {
+        "services": {
+          "added": [
+            {
+              "name": "ShareX",
+              "category": "Creativity",
+              "section": "Screenshot Tools"
+            }
+          ]
+        },
+        "sections": {},
+        "categories": {}
+      }
+    },
     {
       "date": "2026-06-14",
       "sha": "c151cbac982e8a79424da7041cf422009a8d5f87",

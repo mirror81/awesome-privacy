@@ -116,6 +116,7 @@ corporations, governments, and hackers from logging, storing or selling your per
 	- [Video Editors](#video-editors) (7)
 	- [Audio Editors & Recorders](#audio-editors--recorders) (1)
 	- [Casting & Streaming](#casting--streaming) (1)
+	- [Screenshot Tools](#screenshot-tools) (1)
 	- [3D Graphics](#3d-graphics) (2)
 	- [Animation](#animation) (1)
 </details></blockquote>
@@ -2255,7 +2256,8 @@ TikTok, and more.*
 
 ### Screenshot Tools
 
-<p  align="center"><b>⚠️ This section is still a work in progress ⚠️</b><br /><i>Check back soon, or help us complete it by submitting a pull request</i></p>
+- **[<img src='https://avatars.githubusercontent.com/u/5548736?s=256&v=4' width='14' alt='' /> ShareX](https://getsharex.com)** - Open-source screen-capture tool for Windows. Takes screenshots and short screen recordings, with annotation, OCR, a colour picker, and configurable save/upload destinations. Note that (if configured)[…](https://awesome-privacy.xyz/creativity/screenshot-tools/sharex "View full ShareX report") 
+
 <p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
 
 ---
