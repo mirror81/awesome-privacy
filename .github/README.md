@@ -109,6 +109,7 @@ corporations, governments, and hackers from logging, storing or selling your per
 	- [Proxy Sites](#proxy-sites) (4)
 - **Media**
 	- [Photo Management](#photo-management) (2)
+	- [Podcast Players](#podcast-players) (1)
 	- [Torrent Downloaders](#torrent-downloaders) (1)
 	- [File Converters](#file-converters) (2)
 - **Creativity**
@@ -2185,7 +2186,8 @@ TikTok, and more.*
 
 ### Podcast Players
 
-<p  align="center"><b>⚠️ This section is still a work in progress ⚠️</b><br /><i>Check back soon, or help us complete it by submitting a pull request</i></p>
+- **[<img src='https://avatars.githubusercontent.com/u/10713470?s=256&v=4' width='14' alt='' /> AntennaPod](https://antennapod.org)** - An open-source podcast manager for Android. Subscribe to any RSS feed, with offline downloads, variable playback speed, and optional gpodder.net or Nextcloud sync. Contains no ads or trackers, but is[…](https://awesome-privacy.xyz/media/podcast-players/antennapod "View full AntennaPod report") 
+
 <p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
 
 ---
