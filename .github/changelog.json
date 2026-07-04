@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T08:14:27Z",
+  "generatedAt": "2026-07-04T19:43:27Z",
   "processedShas": [
     "02125ec429ec1ce9c5acdec1604703cb058a7887",
     "02231fb0a59ee43f93c6d0143640284cb7587d71",
@@ -18,6 +18,7 @@
     "16e19a7dd35eabf58961c296d63b06b3d8a686dc",
     "18638b8c99e173576f48a4296425b70277233794",
     "18d87f28c0cd393052d21fae15e9ca492b9a4243",
+    "1919b09028b9373338a1c1be36c88847fc59bc84",
     "1a7ad45362ba7dadf46adfaf50830215712630fc",
     "1b8fb78a4673bd93282dbbd6f715871189ec9f5f",
     "1be23415958275eb6c82c3e6ccb3f16ecbb62d15",
@@ -297,9 +298,96 @@
     646,
     647,
     648,
-    649
+    649,
+    651,
+    653,
+    654,
+    655,
+    656,
+    657,
+    658,
+    659
   ],
   "entries": [
+    {
+      "date": "2026-07-04",
+      "sha": "1919b09028b9373338a1c1be36c88847fc59bc84",
+      "pr": {
+        "number": 660,
+        "url": "https://github.com/lissy93/awesome-privacy/pull/660",
+        "author": "lissy93",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/1862727?v=4"
+      },
+      "changes": {
+        "services": {
+          "removed": [
+            {
+              "name": "ForwardEmail",
+              "category": "Communication",
+              "section": "Mail Forwarding"
+            }
+          ],
+          "modified": [
+            {
+              "name": "Email Privacy Tester",
+              "category": "Communication",
+              "section": "Email Security Tools",
+              "fields": [
+                "description",
+                "git",
+                "github",
+                "openSource"
+              ]
+            },
+            {
+              "name": "Matrix",
+              "category": "Communication",
+              "section": "Encrypted Messaging",
+              "fields": [
+                "description",
+                "github",
+                "subreddit"
+              ]
+            },
+            {
+              "name": "KeePass",
+              "category": "Essentials",
+              "section": "Password Managers",
+              "fields": [
+                "git",
+                "icon",
+                "openSource",
+                "securityAudited",
+                "tosdrId"
+              ]
+            },
+            {
+              "name": "Secluso",
+              "category": "Smart Home & IoT",
+              "section": "Security Cameras",
+              "fields": [
+                "description"
+              ]
+            }
+          ],
+          "moved": [
+            {
+              "name": "Forward Email",
+              "from": {
+                "category": "Communication",
+                "section": "Encrypted Email"
+              },
+              "to": {
+                "category": "Communication",
+                "section": "Mail Forwarding"
+              }
+            }
+          ]
+        },
+        "sections": {},
+        "categories": {}
+      }
+    },
     {
       "date": "2026-07-01",
       "sha": "2cc3642a761db25b31e749212d1c4a75d831ebe1",
@@ -5998,6 +6086,76 @@
     }
   ],
   "rejections": [
+    {
+      "date": "2026-07-04",
+      "title": "Adds In Case to Password Managers",
+      "pr": {
+        "number": 659,
+        "url": "https://github.com/lissy93/awesome-privacy/pull/659",
+        "author": "wulongwangpeng-jpg",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/281677448?v=4"
+      }
+    },
+    {
+      "date": "2026-07-03",
+      "title": "[Add] Quota Dashboard in Developer Tools",
+      "pr": {
+        "number": 658,
+        "url": "https://github.com/lissy93/awesome-privacy/pull/658",
+        "author": "ryan-knowone",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/299159793?v=4"
+      }
+    },
+    {
+      "date": "2026-07-02",
+      "title": "feat: add CyberForget to Data Broker Removal section",
+      "pr": {
+        "number": 656,
+        "url": "https://github.com/lissy93/awesome-privacy/pull/656",
+        "author": "Cryptocatcherz",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/165894862?v=4"
+      }
+    },
+    {
+      "date": "2026-07-02",
+      "title": "Adds Alatify to Online Tools ",
+      "pr": {
+        "number": 655,
+        "url": "https://github.com/lissy93/awesome-privacy/pull/655",
+        "author": "getalatify",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/290726568?v=4"
+      }
+    },
+    {
+      "date": "2026-07-04",
+      "title": "Update PikaSim: add phone numbers, shielded Zcash, 190+ countries",
+      "pr": {
+        "number": 654,
+        "url": "https://github.com/lissy93/awesome-privacy/pull/654",
+        "author": "codebruinc",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/57265689?v=4"
+      }
+    },
+    {
+      "date": "2026-07-01",
+      "title": "Add What Is My Tools to Network Analysis",
+      "pr": {
+        "number": 653,
+        "url": "https://github.com/lissy93/awesome-privacy/pull/653",
+        "author": "CodeWithEhtisham",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/55108404?v=4"
+      }
+    },
+    {
+      "date": "2026-07-01",
+      "title": "Adds 0xEsim to Virtual Phone Numbers",
+      "pr": {
+        "number": 651,
+        "url": "https://github.com/lissy93/awesome-privacy/pull/651",
+        "author": "doumr32-bit",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/258062323?v=4"
+      }
+    },
     {
       "date": "2026-06-30",
       "title": "Add AI Notebook (offline, local NotebookLM alternative)",
