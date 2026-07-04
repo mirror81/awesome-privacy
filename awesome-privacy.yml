@@ -59,7 +59,10 @@ categories:
 
       - name: KeePass
         url: https://keepass.info
-        openSource: true
+        icon: https://keepass.info/images/icons/keepass_256x256.png
+        git: https://sourceforge.net/projects/keepass/
+        securityAudited: true
+        tosdrId: 3276
         subreddit: KeePass
         description: |
           Hardened, secure and offline password manager. Does not have cloud-sync baked
@@ -685,14 +688,14 @@ categories:
         icon: https://matrix.org/assets/favicon.ico
         openSource: true
         tosdrId: 2455
-        github: matrix-org/dendrite
+        github: matrix-org/matrix-spec
+        subreddit: matrixdotorg
         description: |
           Matrix is a decentralized open network for secure communications, with E2E
           encryption with Olm and Megolm. Along with the [Element](https://element.io/)
-          client, it supports VOIP + video calling and IM + group chats. Since Matrix has
-          an open specification and Simple pragmatic RESTful HTTP/JSON API it makes it easy
-          to integrates with existing 3rd party IDs to authenticate and discover users, as
-          well as to build apps on top of it.
+          client, it supports VOIP + video calling and IM + group chats.
+          Note that homeservers can log IP addresses and metadata, and
+          unrelayed 1:1 calls may reveal your IP to the other party.
 
       notableMentions:
         - name: Chat Secure
@@ -809,24 +812,6 @@ categories:
         For a more details comparison of email providers, see
         [email-comparison.as93.net](https://email-comparison.as93.net/)
       services:
-      - name: Forward Email
-        url: https://forwardemail.net
-        icon: https://forwardemail.net/img/android-chrome-192x192.png
-        github: forwardemail/free-email-forwarding
-        openSource: true
-        subreddit: forwardemail
-        description: |
-          A 100% open-source, privacy-focused email service with quantum-safe encrypted
-          SQLite mailboxes (sandboxed and portable). Supports IMAP, POP3, SMTP, CalDAV
-          (calendars), and CardDAV (contacts). Features include
-          [OpenPGP/MIME and E2EE](https://forwardemail.net/en/faq#do-you-support-openpgpmime-end-to-end-encryption-e2ee-and-web-key-directory-wkd),
-          [Web Key Directory (WKD)](https://forwardemail.net/en/faq#do-you-support-openpgpmime-end-to-end-encryption-e2ee-and-web-key-directory-wkd),
-          and [quantum-resistant encryption](https://forwardemail.net/blog/docs/best-quantum-safe-encrypted-email-service)
-          using ChaCha20-Poly1305. Offers a free plan (forwarding only), Enhanced Protection
-          at $3/month (10 GB storage, unlimited domains/aliases), Team at $9/month, and
-          Enterprise at $250/month. Additional storage available. Can be
-          [self-hosted via Docker](https://forwardemail.net/en/faq#do-you-support-self-hosting).
-          All code is available on [GitHub](https://github.com/forwardemail).
       - name: ProtonMail
         url: https://protonmail.com
         icon: https://proton.me/favicons/android-chrome-192x192.png
@@ -1065,14 +1050,17 @@ categories:
           [open source](https://github.com/mozilla/fx-private-relay), and able to me self-hosted
           for advanced usage.
 
-      - name: ForwardEmail
+      - name: Forward Email
         url: https://forwardemail.net
         icon: https://forwardemail.net/img/android-chrome-192x192.png
-        github: forwardemail/free-email-forwarding
+        github: forwardemail/forwardemail.net
+        securityAudited: true
+        subreddit: forwardemail
         description: |
-          Simple open source catch-all email forwarding service. Easy to self-host (see on
-          [GitHub](https://github.com/forwardemail/free-email-forwarding)), or the hosted version
-          has a free plan as well as a ($3/month) premium plan.
+          Catch-all email forwarding service with unlimited aliases and custom domains,
+          configured via DNS records. Self-hostable; the hosted version has a limited free plan,
+          with paid plans (from $3/month) adding encrypted IMAP/POP3 mailboxes.
+          Audited by Cure53 in 2026.
 
       - name: ProtonMail
         followWith: Professional plan or higher
@@ -1093,17 +1081,13 @@ categories:
       services:
       - name: Email Privacy Tester
         url: https://www.emailprivacytester.com/
-        openSource: true
-        github: mikecardwell/email-privacy-tester
+        git: https://gitlab.com/grepular/ept3
         tosdrId: 9837
         description: |
-          Quick tool, that enables you to test whether your mail client "reads" your emails
-          before you've opened them, and also checks what analytics, read-receipts or other
-          tracking data your mail client allows to be sent back to the sender. The system is
-          open source ([on GitLab](https://gitlab.com/mikecardwell/ept3)), developed by
-          [Mike Cardwell](https://www.grepular.com/) and trusted, but if you do not want to
-          use your real email, creating a second account with the same provider, should yield
-          identical results.
+          Tests whether your mail client "reads" emails before you open them, and what
+          analytics, read-receipts or other tracking data it leaks back to the sender.
+          Developed by [Mike Cardwell](https://www.grepular.com/); use a spare address
+          if you'd rather not test your real one.
 
       - name: DKIM Verifier
         url: https://addons.thunderbird.net/en-US/thunderbird/addon/dkim-verifier/?collection_id=a5557f08-eafd-7a39-81c6-09127da790f7
@@ -4543,7 +4527,7 @@ categories:
         description: |
           An open source, end-to-end encrypted home security camera
           solution (Pi Zero 2W). Easy to setup with GUI deploy tool.
-          Fully E2EE remote access (live streaming & smart motion alerts) 
+          Fully E2EE remote access (live streaming & smart motion alerts)
           via mobile app and untrusted self-hostable relay.
         url: https://secluso.com
         icon: https://avatars.githubusercontent.com/u/271067237?s=400&u=183f42b70679974bfd5b7e0ad0bd12aee0b45d98&v=4
