@@ -685,14 +685,14 @@ categories:
         icon: https://matrix.org/assets/favicon.ico
         openSource: true
         tosdrId: 2455
-        github: matrix-org/dendrite
+        github: matrix-org/matrix-spec
+        subreddit: matrixdotorg
         description: |
           Matrix is a decentralized open network for secure communications, with E2E
           encryption with Olm and Megolm. Along with the [Element](https://element.io/)
-          client, it supports VOIP + video calling and IM + group chats. Since Matrix has
-          an open specification and Simple pragmatic RESTful HTTP/JSON API it makes it easy
-          to integrates with existing 3rd party IDs to authenticate and discover users, as
-          well as to build apps on top of it.
+          client, it supports VOIP + video calling and IM + group chats.
+          Note that homeservers can log IP addresses and metadata, and
+          unrelayed 1:1 calls may reveal your IP to the other party.
 
       notableMentions:
         - name: Chat Secure
