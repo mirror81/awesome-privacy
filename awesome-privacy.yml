@@ -1579,8 +1579,8 @@ categories:
       - name: NetGuard
         url: https://netguard.me/
         github: M66B/NetGuard
-        icon: https://play-lh.googleusercontent.com/XEd1PsXgOSNNpD2hlZMvigIOJ9e5JCL2KhCJ4X984Az5EFw6YiecDebqdsZ12VNU2kPu=w240-h480
-        androidApp: org.torproject.android
+        icon: https://raw.githubusercontent.com/M66B/NetGuard/master/app/src/main/ic_launcher-web.png
+        androidApp: eu.faircode.netguard
         description: |
           A firewall app for Android, which does not require root. NetGuard provides simple
           and advanced ways to block access to the internet, where applications and addresses
