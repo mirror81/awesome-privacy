@@ -2399,14 +2399,6 @@ categories:
           with Anonymized Relays. (Note, since this uses Android's VPN API, it is not possible to run a
           VPN while using RethinkDNS + Firewall.)
 
-      - name: DNS Cloak
-        url: https://apps.apple.com/us/app/dnscloak-secure-dns-client/id1452162351
-        github: s-s/dnscloak
-        followWith: iOS
-        icon: https://github.com/s-s/dnscloak/blob/master/src/images/logo.png?raw=true
-        description: |
-          Simple all that allows for the use for dnscrypt-proxy 2 on an iPhone.
-
       - name: Stubby
         url: https://dnsprivacy.org/wiki/display/DP/DNS+Privacy+Daemon+-+Stubby
         icon: https://dnsprivacy.org/images/favicon.png
