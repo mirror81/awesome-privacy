@@ -3849,9 +3849,10 @@ categories:
           A CLI utility that can be used to securely delete files and devices, to make them extremely difficult to recover.
 
       - name: Secure Remove
-        url: https://www.systutorials.com/docs/linux/man/1-srm/
+        url: https://srm.sourceforge.net/srm.html
         followWith: Unix
         openSource: true
+        icon: https://pixelflare.cc/alicia/icons/srm
         description: |
           CLI utility for securely removing files, directories and whole disks, works on Linux, BSD and MacOS.
 
