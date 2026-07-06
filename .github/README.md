@@ -26,7 +26,7 @@ corporations, governments, and hackers from logging, storing or selling your per
 <summary>📋 <b>Contents</b></summary>
 
 - **Essentials**
-	- [Password Managers](#password-managers) (6)
+	- [Password Managers](#password-managers) (7)
 	- [2-Factor Authentication](#2-factor-authentication) (11)
 	- [File Encryption](#file-encryption) (3)
 	- [Browsers](#browsers) (5)
@@ -133,6 +133,7 @@ corporations, governments, and hackers from logging, storing or selling your per
 - **[<img src='https://icon.horse/icon/proton.me' width='14' alt='' /> ProtonPass](https://proton.me/pass)** - From the creators of ProtonMail, ProtonPass is a new addition to their suite of services. They have a full collection of user-friendly native mobile and desktop apps. ProtonPass is one of the few "tru[…](https://awesome-privacy.xyz/essentials/password-managers/protonpass "View full ProtonPass report") 
 - **[<img src='https://www.zx2c4.com/favicon.ico' width='14' alt='' /> Pass](https://www.passwordstore.org/)** - The Standard Unix Password Manager 
 - **[<img src='https://www.aliasvault.net/favicon.png' width='14' alt='' /> AliasVault](https://www.aliasvault.net)** - End-to-end encrypted open source password and alias manager with built-in email server. AliasVault protects your privacy by creating alternative identities, passwords and email addresses for every web[…](https://awesome-privacy.xyz/essentials/password-managers/aliasvault "View full AliasVault report") 
+- **[<img src='https://papervault.xyz/papervault-512.png' width='14' alt='' /> PaperVault](https://papervault.xyz)** - Store secrets and passwords on encrypted paper with distributed keys. Designed to last generations. Open source, client-side only, works offline. 
 
 <details>
 <summary>✳️ <b>Notable Mentions</b></summary>

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-05T18:15:52Z",
+  "generatedAt": "2026-07-06T20:59:42Z",
   "processedShas": [
     "02125ec429ec1ce9c5acdec1604703cb058a7887",
     "02231fb0a59ee43f93c6d0143640284cb7587d71",
@@ -163,6 +163,7 @@
     "df686cd77a1ff89ba9a318089d46c1585b63b572",
     "e192c0a4ae62d6d5dc4f3d163825b6b90205527a",
     "e33ee115950f0d56c764e5d0581e1d697afbb63f",
+    "e52675c9d125682d9ee09b4d681173bf90bfdc7f",
     "e55f08c8337bf322a0b10d1b6c9827cb2bac5a64",
     "e7474c579b7e33b3c47ed76492068d914e4566f1",
     "e9b1fee82705ca9b52a9db6e081d46bc4c417f01",
@@ -310,6 +311,29 @@
     659
   ],
   "entries": [
+    {
+      "date": "2026-07-06",
+      "sha": "e52675c9d125682d9ee09b4d681173bf90bfdc7f",
+      "pr": {
+        "number": 421,
+        "url": "https://github.com/lissy93/awesome-privacy/pull/421",
+        "author": "boazeb",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/8749410?v=4"
+      },
+      "changes": {
+        "services": {
+          "added": [
+            {
+              "name": "PaperVault",
+              "category": "Essentials",
+              "section": "Password Managers"
+            }
+          ]
+        },
+        "sections": {},
+        "categories": {}
+      }
+    },
     {
       "date": "2026-07-05",
       "sha": "f5492c30cce1c48fcdef67af9dc70d2d91074ee8",
