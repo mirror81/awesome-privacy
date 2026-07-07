@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T11:17:28Z",
+  "generatedAt": "2026-07-07T12:13:20Z",
   "processedShas": [
     "02125ec429ec1ce9c5acdec1604703cb058a7887",
     "02231fb0a59ee43f93c6d0143640284cb7587d71",
@@ -49,6 +49,7 @@
     "3a0f205ebce011cbe436e71e3181cf7c2d3bf809",
     "3a462d6d2f792b391753a9b66cffa5e42dd68c55",
     "3c768cfd34bb4a75c740815874dfb99b31233fa7",
+    "3e4dbc7a1919781cb28dbfb5d75cf36daac9bd4e",
     "3e760b3a774e6b65f62866dc3effa5b504a4e10f",
     "401776af65289a4a71318462202a3b6a924c44bc",
     "4145b323ab2b8e93d05392ba12ace9ee815c27f9",
@@ -321,6 +322,29 @@
     659
   ],
   "entries": [
+    {
+      "date": "2026-07-07",
+      "sha": "3e4dbc7a1919781cb28dbfb5d75cf36daac9bd4e",
+      "pr": {
+        "number": 664,
+        "url": "https://github.com/lissy93/awesome-privacy/pull/664",
+        "author": "lissy93",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/1862727?v=4"
+      },
+      "changes": {
+        "services": {
+          "removed": [
+            {
+              "name": "VESmail",
+              "category": "Communication",
+              "section": "Email Security Tools"
+            }
+          ]
+        },
+        "sections": {},
+        "categories": {}
+      }
+    },
     {
       "date": "2026-07-07",
       "sha": "81c6367b10f514409659cbc2f32e5e49301bf3a9",
