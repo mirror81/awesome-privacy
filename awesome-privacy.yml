@@ -3531,6 +3531,25 @@ categories:
         Available on desktop, mobile, web and through a browser extension.
         The catch is that it is not open source, there is a free and premium plan, but no option for self-hosting.
 
+    ############################
+    ###### Habit Trackers ######
+    ############################
+    - name: Habit Trackers
+      alternativeTo: ['streaks', 'habitbull', 'productive', 'way of life', 'done']
+      services:
+      - name: OpenHabitTracker
+        url: https://openhabittracker.net
+        github: Jinjinov/OpenHabitTracker
+        icon: https://openhabittracker.net/icons/icon-512.png
+        followWith: Web, Windows, Linux, Android, iOS, macOS
+        openSource: true
+        securityAudited: false
+        androidApp: net.openhabittracker
+        iosApp: https://apps.apple.com/us/app/openhabittracker/id6654885470
+        description: |
+          Free, open source habit tracker. Take notes, plan tasks, and track habits.
+          All data stored locally or self-hosted via Docker. No accounts required.
+
     ##############################
     ###### Conference Calls ######
     #############################
