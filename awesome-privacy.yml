@@ -4827,7 +4827,6 @@ categories:
         followWith: Self-hosted
         openSource: true
         acceptsCrypto: true
-        discordInvite: https://discord.rotki.com
         subreddit: rotki
 
       notableMentions: |
