@@ -1800,7 +1800,7 @@ categories:
         url: https://github.com/thomasbuilds/Spectre
         github: thomasbuilds/Spectre
         openSource: true
-        icon: https://raw.githubusercontent.com/thomasbuilds/Spectre/5e915a8d4e1daa550fd9acc063b963732b64b863/icon.png
+        icon: https://raw.githubusercontent.com/thomasbuilds/Spectre/refs/heads/main/metadata/en-US/images/icon.png
         androidApp: dev.thomasbuilds.spectre
         description: |
           A radio frequency scanner app for Android with recon and offensive capabilities.
