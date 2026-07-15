@@ -4503,7 +4503,18 @@ categories:
         For that reason it is recommended not to have these devices in your house.
         The following are open source AI voice assistants, that aim to provide a
         human voice interface while also protecting your privacy and security
-      services: []
+      services:
+      - name: Vocalinux
+        description: |
+          Offline system-wide voice dictation for Linux (X11 and Wayland).
+          Uses local models (whisper.cpp, Whisper, or VOSK) so microphone
+          audio never leaves the device. Tray app with hotkeys; GPLv3.
+          Currently beta software.
+        url: https://vocalinux.com/
+        github: jatinkrmalik/vocalinux
+        icon: https://vocalinux.com/icon-192x192.png
+        followWith: Linux
+        openSource: true
 
       notableMentions: |
         [Mycroft](https://github.com/MycroftAI/mycroft-core) and [Kalliope](https://github.com/kalliope-project/kalliope) removed, as no longer active.
