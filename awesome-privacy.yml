@@ -3168,6 +3168,33 @@ categories:
           Note that CalDAV support is currently limited
           (see [#921](https://github.com/FossifyOrg/Calendar/issues/921)
 
+    ########################
+    ###### Scheduling ######
+    ########################
+    - name: Scheduling
+      alternativeTo: ['calendly', 'cal.com', 'doodle']
+      services:
+      - name: Tymeslot
+        url: https://tymeslot.app
+        icon: https://tymeslot.app/images/brand/favicon-ca68e86a59d4a3ed9891fa9d036807e5.svg
+        github: Tymeslot/tymeslot
+        openSource: true
+        description: |
+          Open-source (AGPL-3.0), self-hostable scheduling and calendar platform. Guests book
+          without creating an account; hosts get a full calendar with two-way sync to Google,
+          Outlook and iCloud. A managed cloud plan is offered too, not self-hosted.
+
+      - name: Rallly
+        url: https://rallly.co/
+        icon: https://raw.githubusercontent.com/lukevella/rallly/refs/heads/main/apps/web/public/favicon.svg
+        github: lukevella/rallly
+        discordInvite: uzg4ZcHbuM
+        openSource: true
+        description: |
+          Open-source & self-hostable scheduling tool that helps you find the best date
+          and time to meet. Create a poll with a few options, share the link, and let your
+          participants vote on when they're available. No more back-and-forth emails.
+
     ###############################
     ###### Task Management ######
     ##############################
