@@ -65,6 +65,7 @@ corporations, governments, and hackers from logging, storing or selling your per
 - **Productivity**
 	- [Digital Notes](#digital-notes) (8)
 	- [Calendar](#calendar) (3)
+	- [Scheduling](#scheduling) (1)
 	- [Task Management](#task-management) (2)
 	- [Backup and Sync](#backup-and-sync) (4)
 	- [Cloud Productivity Suites](#cloud-productivity-suites) (5)
@@ -1069,6 +1070,14 @@ important.
 - **[<img src='https://calendar.proton.me/assets/android-chrome-256x256.png' width='14' alt='' /> Proton Calendar](https://proton.me/calendar)** - The calendar app from the Proton suite. End-to-end encrypted. Supports ICS (not encrypted), colours, recurring events, mail integration, notifications and multiple time zones. 
 - **[<img src='https://raw.githubusercontent.com/nextcloud/calendar/refs/heads/main/img/favicon.png' width='14' alt='' /> Nextcloud Calendar](https://apps.nextcloud.com/apps/calendar)** - Calendar app for the self-hosted Nextcloud platform. Uses CalDAV for sync across devices. No E2E encryption support. 
 - **[<img src='https://raw.githubusercontent.com/FossifyOrg/Calendar/refs/heads/main/graphics/icon.webp' width='14' alt='' /> Fossify Calendar](https://www.fossify.org/)** - Fossify Calendar from the family of forked FOSS apps from the discontinued SimpleMobileTools. Simple, customizable, includes widgets. Note that CalDAV support is currently limited (see [#921](https://github.com/FossifyOrg/Calendar/issues/921)[…](https://awesome-privacy.xyz/productivity/calendar/fossify-calendar "View full Fossify Calendar report") 
+
+<p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
+
+---
+
+### Scheduling
+
+- **[<img src='https://tymeslot.app/images/brand/favicon-ca68e86a59d4a3ed9891fa9d036807e5.svg' width='14' alt='' /> Tymeslot](https://tymeslot.app)** - Open-source (AGPL-3.0), self-hostable scheduling and calendar platform. Guests book without creating an account; hosts get a full calendar with two-way sync to Google, Outlook and iCloud. A managed cl[…](https://awesome-privacy.xyz/productivity/scheduling/tymeslot "View full Tymeslot report") 
 
 <p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
 
