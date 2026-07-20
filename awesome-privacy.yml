@@ -3100,16 +3100,6 @@ categories:
           A free, open-source note-taking application built with Qt, focused on providing a pleasant Markdown
           editing experience. It manages notes directly as plain text files on your local system.
 
-      - name: Bangle.io
-        url: https://app.bangle.io
-        github: bangle-io/bangle-io
-        followWith: Web, PWA
-        openSource: true
-        icon: https://app.bangle.io/icons/app-icon-192.png
-        description: |
-          A local-first WYSIWYG Markdown notes app. Notes stay in browser storage or user-selected folders,
-          while the hosted app uses privacy-scrubbed Sentry monitoring for errors and performance.
-
       notableMentions: |
         If you are already tied into Evernote, One Note etc, then [SafeRoom](https://www.getsaferoom.com)
         is a utility that encrypts your entire notebook, before it is uploaded to the cloud.
@@ -3125,6 +3115,8 @@ categories:
         [Safe Notes](https://play.google.com/store/apps/details?id=com.protectedtext.android) Android app.
         [Laverna](https://laverna.cc/) is a cross-platform secure notes app,
         where all entries are formatted with markdown.
+        [Bangle.io](https://app.bangle.io) is a local-first WYSIWYG Markdown notes PWA,
+        storing notes in browser storage or user-selected folders.
 
     ######################
     ###### Calendar ######
