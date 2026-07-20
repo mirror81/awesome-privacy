@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T10:28:13Z",
+  "generatedAt": "2026-07-20T11:30:55Z",
   "processedShas": [
     "02125ec429ec1ce9c5acdec1604703cb058a7887",
     "02231fb0a59ee43f93c6d0143640284cb7587d71",
@@ -85,6 +85,7 @@
     "6a34ef6b931861667da7d6227c1be8f48d26facc",
     "6cf287d925558028acb263fbafa7eb412abfed17",
     "6d21892e771f8ca4a64b772e211b32db166626a6",
+    "6eff55d23b27913fdb7102b8d747906ed84eb84d",
     "7177ba26e054a6f173ec451b420ee64d5fdef69b",
     "719de567d40d3be7714c3206fb76a41d93c61910",
     "75ad504f96da49df98dc30842d820fd74c85deb0",
@@ -108,6 +109,7 @@
     "8950c0b79c0fc336f579002466dcc2f8eaad43ea",
     "8c0cdf76b53040df0fe362941ca4a085d346ce8a",
     "8ee48cc161dd204f6eea70e8988ad3d4eb17e0c7",
+    "906ceba8d144bc074ceab3872424f3dd5d205fa5",
     "90d8ef9b928ed9abb25b3c2480717e6174451488",
     "9138eddcdec8ede666db70bc44d98b33c9f9653e",
     "923301401b6f5d19ea9bb2c4fb9360eff10a257a",
@@ -192,6 +194,7 @@
     "f4332e985d4064559535b16397d9c35fdce587eb",
     "f5492c30cce1c48fcdef67af9dc70d2d91074ee8",
     "f6467fe43a42b6b4a6e9e887ab0e4ae7accd93d8",
+    "f90930b0973cf9f030db48893a76735a7751d653",
     "f987d9969923ee65464d0de187183719af278998",
     "fa1c504da13a0d2f8e75ef95566811e54750ff3d",
     "fca32d84d5c026154c5187c2a95a6dd77b73e475",
@@ -331,9 +334,93 @@
     668,
     671,
     675,
-    677
+    677,
+    679,
+    683,
+    684,
+    685,
+    686,
+    687,
+    688,
+    689
   ],
   "entries": [
+    {
+      "date": "2026-07-20",
+      "sha": "906ceba8d144bc074ceab3872424f3dd5d205fa5",
+      "pr": {
+        "number": 690,
+        "url": "https://github.com/lissy93/awesome-privacy/pull/690",
+        "author": "ltguillaume",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/4777345?v=4"
+      },
+      "changes": {
+        "services": {
+          "added": [
+            {
+              "name": "Rallly",
+              "category": "Productivity",
+              "section": "Scheduling"
+            }
+          ]
+        },
+        "sections": {},
+        "categories": {}
+      }
+    },
+    {
+      "date": "2026-07-20",
+      "sha": "f90930b0973cf9f030db48893a76735a7751d653",
+      "pr": {
+        "number": 681,
+        "url": "https://github.com/lissy93/awesome-privacy/pull/681",
+        "author": "wahve3",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/24662784?v=4"
+      },
+      "changes": {
+        "services": {
+          "added": [
+            {
+              "name": "Tymeslot",
+              "category": "Productivity",
+              "section": "Scheduling"
+            }
+          ]
+        },
+        "sections": {
+          "added": [
+            {
+              "name": "Scheduling",
+              "category": "Productivity"
+            }
+          ]
+        },
+        "categories": {}
+      }
+    },
+    {
+      "date": "2026-07-18",
+      "sha": "6eff55d23b27913fdb7102b8d747906ed84eb84d",
+      "pr": {
+        "number": 682,
+        "url": "https://github.com/lissy93/awesome-privacy/pull/682",
+        "author": "ltguillaume",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/4777345?v=4"
+      },
+      "changes": {
+        "services": {
+          "added": [
+            {
+              "name": "Mindwtr",
+              "category": "Productivity",
+              "section": "Task Management"
+            }
+          ]
+        },
+        "sections": {},
+        "categories": {}
+      }
+    },
     {
       "date": "2026-07-14",
       "sha": "9420fd7b12784cd36767cc4134a412ef96aba636",
@@ -6492,6 +6579,66 @@
     }
   ],
   "rejections": [
+    {
+      "date": "2026-07-19",
+      "title": "Adds Bangle.io to Digital Notes",
+      "pr": {
+        "number": 688,
+        "url": "https://github.com/lissy93/awesome-privacy/pull/688",
+        "author": "kepta",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/6966254?v=4"
+      }
+    },
+    {
+      "date": "2026-07-18",
+      "title": "Re-add VirtualSMS (privacy + security issues from #504 resolved)",
+      "pr": {
+        "number": 687,
+        "url": "https://github.com/lissy93/awesome-privacy/pull/687",
+        "author": "virtualsms-io",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/265610251?v=4"
+      }
+    },
+    {
+      "date": "2026-07-18",
+      "title": "Add NoSuggest PWA for YouTube recommendations",
+      "pr": {
+        "number": 686,
+        "url": "https://github.com/lissy93/awesome-privacy/pull/686",
+        "author": "No-Suggest",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/280896067?v=4"
+      }
+    },
+    {
+      "date": "2026-07-16",
+      "title": "Add OnDevicePDF in Online Tools",
+      "pr": {
+        "number": 684,
+        "url": "https://github.com/lissy93/awesome-privacy/pull/684",
+        "author": "RaviChanduEdru",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/92777166?v=4"
+      }
+    },
+    {
+      "date": "2026-07-15",
+      "title": "[Add] Zooid in Team Collaboration",
+      "pr": {
+        "number": 683,
+        "url": "https://github.com/lissy93/awesome-privacy/pull/683",
+        "author": "orivibes",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/103140410?v=4"
+      }
+    },
+    {
+      "date": "2026-07-19",
+      "title": "Adds VESmail to Email Security Tools",
+      "pr": {
+        "number": 679,
+        "url": "https://github.com/lissy93/awesome-privacy/pull/679",
+        "author": "vesvault-jz",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/33967156?v=4"
+      }
+    },
     {
       "date": "2026-07-13",
       "title": "Add pdfcevir under new Document Converters section",
