@@ -42,7 +42,7 @@ corporations, governments, and hackers from logging, storing or selling your per
 	- [Virtual Phone Numbers](#virtual-phone-numbers) (8)
 	- [Team Collaboration](#team-collaboration) (6)
 - **Security Tools**
-	- [Browser Extensions](#browser-extensions) (19)
+	- [Browser Extensions](#browser-extensions) (20)
 	- [Mobile Apps](#mobile-apps) (23)
 	- [Online Tools](#online-tools) (17)
 - **Networking**
@@ -481,6 +481,7 @@ The following browser add-ons give you better control over what content is able 
 - **[<img src='https://lh3.googleusercontent.com/c78SvSl7OD2thLmgX5irlo1tvxGVtkziKTKmp7VByjvvrw2czkP2cFbbRASmopQBV9-PpNBD_NOqt8WIC4JVc0WB3A=s60' width='14' alt='' /> Netcraft Extension](https://www.netcraft.com/apps/browser)** - Notifies you when visiting a known or potential phishing site, and detects suspicious JavaScript (including skimmers and miners). Also provides a simple rating for a given site's legitimacy and securi[…](https://awesome-privacy.xyz/security-tools/browser-extensions/netcraft-extension "View full Netcraft Extension report") 
 - **[<img src='https://icon.horse/icon/linguister.io' width='14' alt='' /> Linguist](https://linguister.io)** - Linguist is a privacy‑focused translation solution in-browser that has an embedded offline translator and lets users create [custom translators](https://linguister.io/docs/CustomTranslator) to use any translation API, even if it's locally deployed[…](https://awesome-privacy.xyz/security-tools/browser-extensions/linguist "View full Linguist report") 
 - **[<img src='https://raw.githubusercontent.com/libredirect/browser_extension/refs/heads/master/src/assets/images/libredirect.svg' width='14' alt='' /> LibRedirect](https://libredirect.manerakai.com)** - A browser extension that redirects popular sites to alternative privacy friendly frontends **Download**: [Firefox](https://addons.mozilla.org/firefox/addon/libredirect/) - [Chrome](https://libredirect.github.io/download_chromium.html)[…](https://awesome-privacy.xyz/security-tools/browser-extensions/libredirect "View full LibRedirect report") 
+- **[<img src='https://sponsor.ajay.app/icons/icon-192x192.png?v=2190b8dd66c9e760a732842073d0a087' width='14' alt='' /> SponsorBlock](https://sponsor.ajay.app)** - Crowdsourced browser extension that skips sponsored segments and other unwanted parts of YouTube videos using community-submitted timestamps. **Download**: [Firefox](https://addons.mozilla.org/firefox/addon/sponsorblock/) - [Chrome](https://chromewebstore.google.com/detail/sponsorblock-para-youtube/mnjggcdmjocbbbhaepdhchncahnbgone)[…](https://awesome-privacy.xyz/security-tools/browser-extensions/sponsorblock "View full SponsorBlock report") 
 
 <details>
 <summary>⚠️ <b>Word of Warning</b></summary>
